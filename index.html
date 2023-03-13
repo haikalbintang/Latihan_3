@@ -1,20 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Travel Agent | Exodia</title>  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Agent | Exodia</title>
+    <link rel="stylesheet" href="/css/style.css">  
 </head>
-<body>
-    <header>
-
+<body id="container">
+    <!-- Header -->
+    <header class="header" id ="header">
+        <nav id="navbar">
+            <div class="nav-logo"><a href="index.html"><img src="/assets/revou.png" alt="logo revou"></a></div>
+            <div class="nav-menu">
+                <div class="menu-home"><a href="index.html">Home</a></div>    
+                <div class="menu-our-packages"><a href="#our-packages">Our Packages</a></div>
+                <div class="menu-call-us"><a href="#call-us">Call Us</a></div>
+            </div>
+        </nav>
+        <hr>
     </header>
+    <!-- Main -->
     <main>
-        <h1>Hello World!</h1>
+        <section id="headline">
+            <h1>Your Trusted Agent's</h1>
+            <h6>Your happiness is our happiness.</h6>
+        </section>
+        <div class="row">
+            <div class="column">
+                <section id="testimoni">
+                    <img src="http://placekitten.com/400/300" alt="gambar kocheng">
+                    <p><i>"Liburan jadi menyenangkan bersama Travel Agentku."</i></p>
+                    <div class="testimoni-orang">
+                        <img src="http://placekitten.com/75/75" alt="foto orang">
+                        <p>Florence Hughes</p>
+                        <p>Ibu Rumah Tangga, 28</p>
+                    </div>  
+                    <hr>              
+                </section>
+                <section id="more-information">
+                    <p>Use this space to provide users with more information about your offer. Consider it a follow-up to your headline and explain the benefits of your service or products</p>
+                    <div class="feature">
+                        <img src="http://placekitten.com/70/70" alt="nomor 1">
+                        <p>Your first feature, written in the form of benefit statement.</p>
+                    </div>
+                    <div class="feature">
+                        <img src="http://placekitten.com/70/70" alt="nomor 2">
+                        <p>Your first feature, written in the form of benefit statement.</p>
+                    </div>
+                    <div class="feature">
+                        <img src="http://placekitten.com/70/70" alt="nomor 3">
+                        <p>Your first feature, written in the form of benefit statement.</p>
+                    </div>
+                </section>
+            </div>
+            <section id="contact-us">
+                <h3>Contact Us</h3>
+                <p>Sales akan menghubungi Anda 1x24 jam setelah data kami terima.</p>
+                <form action="">
+                    <label for="your-name">Your Name:</label>
+                    <input type="text" placeholder="First and last name" name="your-name">
+                    <label for="email-address">Email Address:</label>
+                    <input type="text" placeholder="example@mail.com" name="email-address">
+                    <label for="interest">What are you interested in?</label>
+                    <select name="interest" id="interest">
+                        <option value="religion">Religion</option>
+                        <option value="science">Science</option>
+                        <option value="art">Art</option>
+                    </select>
+                    <button type="submit">SEND</button>
+                </form>
+            </section>
+        </div>
+        <section id="our-packages">
+            <h1>Our Packages</h1>
+            <div class="top">
+                <div class="destinasi">
+                    <img src="http://placekitten.com/70/70" alt="bali">
+                    <div class="bali-desc">
+                        <h3>Bali</h3>
+                        <p>This description supports and extends the bullet point above</p>   
+                    </div>           
+                </div>
+                <div class="destinasi">
+                    <img src="http://placekitten.com/70/70" alt="japan">
+                    <div>
+                        <h3>Japan</h3>
+                        <p>This description supports and extends the bullet point above</p>            
+                    </div>
+                </div>
+                <div class="destinasi">
+                    <img src="http://placekitten.com/70/70" alt="bandung">
+                    <div>
+                        <h3>Bandung</h3>
+                        <p>This description supports and extends the bullet point above</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="destinasi">
+                    <img src="http://placekitten.com/70/70" alt="surabaya">
+                    <div>
+                        <h3>Surabaya</h3>
+                        <p>This description supports and extends the bullet point above</p>            
+                    </div>
+                </div>
+                <div class="destinasi">
+                    <img src="http://placekitten.com/70/70" alt="jakarta">
+                    <div>
+                        <h3>Jakarta</h3>
+                        <p>This description supports and extends the bullet point above</p>            
+                    </div>
+                </div>
+                <div class="destinasi">
+                    <img src="http://placekitten.com/70/70" alt="singapore">
+                    <div>
+                        <h3>Singapore</h3>
+                        <p>This description supports and extends the bullet point above</p>            
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="closing">
+            <h2>Your Closing Argument Headline</h2>
+            <p>Suspendisse egestas rhoncus aurna in beibendum. Donecurna neque, euismod sed justo quis, convallis tincidunt tisus. Phallesus fringilla odio vel erat fringilia,</p>
+            <button>CALL TO ACTION</button>
+        </section>
     </main>
+    <!-- Footer -->
     <footer>
-        
+        <img src="/assets/revou.png" alt="logo-revou">
+        <p>Terms of Service   Privacy Policy</p>
+        <p>copyright 2019 Revou</p>
     </footer>
 </body>
 </html>
