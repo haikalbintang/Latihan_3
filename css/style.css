@@ -156,6 +156,8 @@ body{
 .orang-job > .job {
 	font-style: italic;
 }
+
+/* More Information */
 #more-information {
 	max-width: 600px;
 	margin: auto;
@@ -171,6 +173,17 @@ body{
 	margin-left: 15px;
 	margin-bottom: 15px;
 }
+.feature > h2 {
+	font-size: 25px;
+	color: aliceblue;
+	background-color: darkcyan;
+	border-radius: 50%;
+	padding-top: 8px;
+	margin-right: 10px;
+	height: 40px;
+	width: 50px;
+	text-align: center;
+}
 .feature > img {
 	border-radius: 50%;
 	margin-right: 10px;
@@ -178,7 +191,8 @@ body{
 
 /* Contact Us */
 #contact-us {
-    background-color: navy;
+    border-radius: 1%;
+	background-color: navy;
     color: white;
     padding: 40px;
 }
@@ -186,15 +200,17 @@ body{
     padding-top: 10px;
 	padding-bottom: 24px;
     font-size: 24px;
+	font-weight: 600;
 }
 #contact-us > p {
 	padding-bottom: 70px;
 }
 #contact-us > form {
-	display: block;
+	display: flex;
+	flex-direction: column;
 }
-.input-1, .input-2 {
-	padding: 10px 100px 10px 0px;
+.input-1, .input-2, .input-3 {
+	padding: 5px 150px 5px 0px;
 }
 
 /* Our Packages */
@@ -234,8 +250,13 @@ body{
 	flex-direction: row;
 	align-items: center;
 }
+.city > .bali {
+
+}
 .city > img {
 	border-radius: 50%;
+	height: 80px;
+	width: 80px;
 }
 .town {
 	font-size: 24px;
@@ -254,7 +275,7 @@ body{
 	align
 }
 #call-us > h2 {
-	display:flex;
+	display: flex;
 	font-size: 30px;
 	font-weight: 800;
 	justify-content: center;
