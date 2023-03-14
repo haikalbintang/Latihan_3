@@ -79,54 +79,19 @@ table {
 }
 
 /* NavMenu */
-.menu-home {
+.menu-item {
     align-self: center;
-    margin-right: 20px;
+    margin-right: 2px;
     background-color: antiquewhite;
 }
-.menu-home > a:link {
-    background-color: white;
+.menu-item > a:link {
+    background-color: darkcyan;
     color: black;
     padding: 20px 20px ;
     text-decoration: none;
 }
-.menu-home > a:visited, .home > a:hover, .home > a:active {
+.menu-item > a:hover, .menu-item > a:active {
     background-color: navy;
-    color: white;
-}
-
-.menu-our-packages {
-	align-self: center;
-    margin-right: 20px;
-    background-color: white;
-}
-.menu-our-packages > a:link, .menu-our-packages > a:visited {
-    background-color: darkcyan;
-    color: darkcyan;
-    padding: 20px 20px ;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-.menu-our-packages > a:hover, .menu-our-packages > a:active {
-    background-color: navy;
-    color: white;
-}
-.menu-call-us {
-	align-self: center;
-    margin-right: 20px;
-    background-color: antiquewhite;
-}
-.menu-call-us > a:link, .menu-our-packages > a:visited {
-    background-color: white;
-    color: darkcyan;
-    padding: 20px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-.menu-call-us > a:hover, .menu-our-packages > a:active {
-    background-color: maroon;
     color: white;
 }
 
@@ -148,6 +113,34 @@ table {
 .row {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
+}
+.column {
+	max-width: 750px;
+}
+#testimoni {
+	background-color: aliceblue;
+}
+#contact-us {
+    background-color: navy;
+    color: aliceblue;
+    padding: 40px;
+}
+#contact-us > h3 {
+    padding-top: 10px;
+	padding-bottom: 24px;
+    font-size: 24px;
+}
+#contact-us > p {
+	padding-bottom: 70px;
+}
+#contact-us > form {
+	display: block;
+}
+.label-1, .label-2, .label-3{
+	padding-bottom: 30px;
+}
+.input-1, .input-2, .input-3 {
 }
 /* Our Packages */
 #our-packages > h1 {
@@ -156,6 +149,8 @@ table {
 	font-weight: 800;
 	justify-content: center;
 	align-items: center;
+	padding: 40px;
+    background-color: aliceblue;
 }
 .top {
 	display: flex;
