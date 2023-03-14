@@ -175,10 +175,11 @@ body{
 	border-radius: 50%;
 	margin-right: 10px;
 }
+
+/* Contact Us */
 #contact-us {
     background-color: navy;
-
-    color: aliceblue;
+    color: white;
     padding: 40px;
 }
 #contact-us > h3 {
