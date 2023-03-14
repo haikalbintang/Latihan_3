@@ -47,14 +47,20 @@ table {
 	border-spacing: 0;
 }
 
+__________________________________________________________________________________________________________________________
 /* Start Here */
 /* Body */
-#container {
+body{
 	max-width: 1280px;
-	width: 100%;
-	margin: auto;
+    margin: auto;
 }
-/* Header */
+#container {
+    line-height: 1;
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+}
+/* Header/NavBar */
 #navbar {
 	padding-top: 2px;
 	display: flex;
@@ -91,11 +97,12 @@ table {
     text-decoration: none;
 }
 .menu-item > a:hover, .menu-item > a:active {
-    background-color: navy;
+    background-color: darkcyan;
     color: white;
 }
 
 /* Main */
+/* Headline */
 #headline > h1 {
 	display: flex;
 	justify-content: center;
@@ -110,6 +117,7 @@ table {
 	padding-bottom: 30px;
 
 }
+
 .row {
 	display: flex;
 	flex-direction: row;
@@ -119,10 +127,57 @@ table {
 	max-width: 750px;
 }
 #testimoni {
+	display:flex;
+	flex-direction: column;
+	width:auto;
 	background-color: aliceblue;
+	justify-content: center;
+	align-items: center;
+}
+#testimoni > p {
+	margin-top: 20px;
+	font-style: italic;
+}
+.testimoni-orang {
+    display: flex;
+    margin-top: 20px;
+}
+.testimoni-orang > img {
+	margin-right: 10px;
+}
+.orang-job {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+}
+.orang-job > .name {
+	font-weight: 900;
+}
+.orang-job > .job {
+	font-style: italic;
+}
+#more-information {
+	max-width: 600px;
+	margin: auto;
+}
+#more-information > p {
+	margin-top: 20px;
+}
+.feature {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+.feature > img {
+	border-radius: 50%;
+	margin-right: 10px;
 }
 #contact-us {
     background-color: navy;
+
     color: aliceblue;
     padding: 40px;
 }
@@ -137,12 +192,15 @@ table {
 #contact-us > form {
 	display: block;
 }
-.label-1, .label-2, .label-3{
-	padding-bottom: 30px;
+.input-1, .input-2 {
+	padding: 10px 100px 10px 0px;
 }
-.input-1, .input-2, .input-3 {
-}
+
 /* Our Packages */
+#our-packages {
+	max-width: 1280px;
+    margin: auto;
+}
 #our-packages > h1 {
 	display:flex;
 	font-size: 30px;
@@ -151,16 +209,80 @@ table {
 	align-items: center;
 	padding: 40px;
     background-color: aliceblue;
+	margin-bottom: 20px;
 }
 .top {
 	display: flex;
 	flex-direction: row;
+	margin-bottom: 40px;
+	justify-content: space-between;
 }
 .bottom {
 	display: flex;
 	flex-direction: row;
+	margin-bottom: 20px;
+	justify-content: space-between;
 }
 .destinasi {
 	display: flex;
+	flex-direction: column;
+	max-width: 400px;
+}
+.city {
+	display: flex;
 	flex-direction: row;
+	align-items: center;
+}
+.city > img {
+	border-radius: 50%;
+}
+.town {
+	font-size: 24px;
+	margin-left: 12px;
+}
+.town-desc {
+	margin-left: 82px;
+	margin-right: 25px;
+}
+
+/* Call Us */
+#call-us {
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align
+}
+#call-us > h2 {
+	display:flex;
+	font-size: 30px;
+	font-weight: 800;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+}
+#call-us > p {
+	margin-bottom: 40px;
+	text-align: center;
+}
+#call-us > button {
+	display:flex;
+	margin-bottom: 40px;
+	max-width: fit-content;
+	align-self: center;
+	padding: 10px 20px;
+}
+/* Footer */
+footer {
+	max-width: 1280px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: darkcyan;
+	color:aliceblue;
+	padding: 12px;
+}
+footer > img {
+	width: 60px;
+	height: 100%;
 }
