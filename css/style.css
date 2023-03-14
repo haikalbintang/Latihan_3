@@ -210,7 +210,18 @@ body{
 	flex-direction: column;
 }
 .input-1, .input-2, .input-3 {
-	padding: 5px 150px 5px 0px;
+	padding: 10px 150px 10px 0px;
+}
+.gender {
+	display: flex;
+	margin-bottom: 10px;
+}
+.interest {
+	display: inline-flex;
+}
+.submit {
+	padding: 10px 100px 10px 100px;
+	margin-top: 15px;
 }
 
 /* Our Packages */
@@ -250,9 +261,6 @@ body{
 	flex-direction: row;
 	align-items: center;
 }
-.city > .bali {
-
-}
 .city > img {
 	border-radius: 50%;
 	height: 80px;
@@ -272,7 +280,6 @@ body{
 	display:flex;
 	flex-direction: column;
 	justify-content: center;
-	align
 }
 #call-us > h2 {
 	display: flex;
